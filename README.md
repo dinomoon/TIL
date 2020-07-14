@@ -6,4 +6,4 @@
 
 ### JavaScript
 
-- [Data Type]("./data_type.md")
+- [Data Type]("https://github.com/dinomoon/TIL/blob/master/JavaScript/data_type.md")
