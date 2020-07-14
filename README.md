@@ -5,3 +5,5 @@
 ## 분류
 
 ### JavaScript
+
+- [Data Type]("./data_type.md")
