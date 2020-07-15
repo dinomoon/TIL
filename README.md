@@ -7,3 +7,4 @@
 ### JavaScript
 
 - [Data Type](https://github.com/dinomoon/TIL/blob/master/JavaScript/data_type.md)
+- [Hoisting](https://github.com/dinomoon/TIL/blob/master/JavaScript/hoisting.md)
