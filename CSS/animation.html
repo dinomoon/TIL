@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="ko">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>animation</title>
+    <style>
+      @keyframes rotate {
+        0% {
+        }
+        50% {
+          background-color: orange;
+          width: 100px;
+          height: 100px;
+        }
+        100% {
+          transform: rotate(360deg);
+        }
+      }
+      @keyframes translate {
+        25% {
+          transform: translateX(300px);
+        }
+        50% {
+          transform: translate(300px, 300px);
+          background-color: dodgerblue;
+        }
+        75% {
+          transform: translateY(300px);
+        }
+      }
+      .container {
+        height: 300px;
+      }
+      .box {
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        width: 200px;
+        height: 200px;
+        background-color: beige;
+        border: 2px solid;
+        font-size: 2rem;
+      }
+      .box1 {
+        animation: rotate 3s infinite;
+      }
+      .box2 {
+        width: 150px;
+        height: 150px;
+        animation: translate 3s infinite;
+      }
+      .box2:hover {
+        animation-play-state: paused;
+      }
+    </style>
+  </head>
+  <body>
+    <h1>Animation</h1>
+    <div class="container">
+      <div class="box box1">Box</div>
+    </div>
+    <h2>마우스를 올려보세요</h2>
+    <div class="box box2">Box</div>
+  </body>
+</html>
